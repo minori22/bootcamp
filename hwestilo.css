@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 150px;
+    font-size: 60px;
+    font-family:'Rubik Dirt', cursive;
+    text-align: center;
+    line-height: 150px;
+    text-decoration: none;
+    
+    background-image: url("https://c8.alamy.com/compes/2f6wjd7/diseno-bonito-sin-costuras-con-estrellas-de-colores-puntos-y-circulos-pequenos-y-diferentes-sobre-fondo-blanco-ilustracion-vectorial-fuegos-artificiales-magicos-brillante-stardus-2f6wjd7.jpg")
+
+}
+
+#menu {
+    background-color: #9ef4f4;
+    font-size: 30px;
+    height: 50px;
+    font-weight: bold;
+    
+}
+
+#main {
+    height: 300;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+    flex-direction: row;
+    display: flex;
+    background-image: url("https://wallpaper.dog/large/20412724.jpg");
+    background-size: cover;
+}
+
+
+
+#footer {
+    background-color: #9ef4f4;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+ul {
+    margin: 0;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding:5px 70px 10px 45px;
+
+}
+
+#item {
+height: 630px;
+width: 50%;
+line-height: 50px;
+
+background-size: cover;
+background-position: right;
+background-image: url("https://files.oyebesmartest.com/uploads/preview/cute-kawaii-cat-wallpaperfzqlp.webp")
+
+
+}
+
+#articles {
+    height: 600px;
+    width: 50%;
+    background-position: right; 
+    text-align: center;
+ 
+}
+
+/* .item{ */
+    /* order: 5; */
+
+
+/* .container{ */
+/* flex-direction: row; */
+/* } */
+
+table {
+    width: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+    
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: #000;
+    text-decoration: none;
+    
+} */

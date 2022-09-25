@@ -1,0 +1,94 @@
+body {
+    margin:0;
+}
+
+#header  {
+    height: 150px;
+    /* background-color: rgb(232, 187, 209); */
+    background-image: url("https://concepto.de/wp-content/uploads/2015/03/paisaje-800x409.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    line-height: 150px;
+}
+
+#main {
+    height: 500px;
+    background-color: rgb(130, 173, 238);
+
+    display: flex;
+    flex-direction: row;
+
+    }
+
+
+#footer {
+    height: 150px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+
+}
+
+#menu {
+
+    height: 50px;
+    background-color: cadetblue;
+    color: #fff;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+    padding: 20px 0 20px 0;
+   
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+display:inline-block;
+    text-decoration: none;
+    padding: 0 40px 0 0;
+    
+}
+
+#sidebar {
+    background-color: coral;
+    height: 500px;
+    width: 50%;
+}
+
+
+#article {
+    background-color: darkkhaki;
+    height: 500px;
+    width: 80%;
+}
+
+#img {
+    width: 10px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#fff
+}
+
+a:hover {
+    color: blue;
+}
